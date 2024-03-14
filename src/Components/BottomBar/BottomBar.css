@@ -1,0 +1,36 @@
+.btmbarCon {
+
+   position: absolute;
+   width: 100%;
+   z-index: 1;
+   height: 62px;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+   padding-top: 11px;
+
+}
+
+.btmBar {
+
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 247px;
+   height: 43px;
+   border-radius: 24px;
+
+   padding-left: 30px;
+   padding-right: 25px;
+
+}
+
+.navIcon {
+   display: flex;
+   cursor: pointer;
+}
+
+.navIcon:hover{
+   opacity: 0.9;
+}

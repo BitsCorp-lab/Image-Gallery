@@ -1,0 +1,106 @@
+.post{
+    position: relative;
+    background:#fff;
+   border-radius: 20px;
+    margin-bottom:2rem;
+    overflow: hidden;
+  
+  }
+  .post img{
+    width:100%;
+    display: block;
+    height: 100%;
+  }
+  
+  @media screen and (min-width:768px){
+    .c-multicol{
+      gap:2rem;
+      -webkit-column-width:30vw;
+      -moz-column-width:30vw;
+      column-width:30vw;
+    }
+    .post{
+      -webkit-column-break-inside: avoid;
+      -moz-column-break-inside: avoid;
+      break-inside: avoid;
+    }
+  }
+  
+  .c-multicol{
+    padding: 10px;
+  }
+  
+  .heart-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 50px;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .heart-button-inc {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 50px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 2px solid #fff; /* White border */
+    border-radius: 5px;
+    font-size: 16px;
+    width: 250px;
+    border-radius: 20px;
+  
+  }
+  
+  .search-input::placeholder {
+    color: #999; /* Light gray placeholder text */
+  }
+  
+  .search-input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: transparent; /* Make the border transparent when focused */
+  }
+  
+  .search-button {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-button:hover {
+    background-color: #222; /* Darker shade of black */
+  }
+  
+  .ser-icn{
+    width: 30px;
+    height: 30px;
+  }
+
+  .no-data-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }

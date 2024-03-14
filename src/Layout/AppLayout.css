@@ -1,0 +1,41 @@
+.layoutCon{
+    height: 100vh;
+    background-color: #0C0C0C;
+    color: whitesmoke;
+}
+
+.navbarCon{
+    height: 80px;
+}
+
+.contentCon{
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+}
+
+.scrollbarStyle{
+    scrollbar-width: thin;
+}
+
+.scrollbarStyle::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+.scrollbarStyle::-webkit-scrollbar {
+    height: 10px;
+    width: 6px;
+    border-radius: 15px;
+}
+
+.scrollbarStyle::-webkit-scrollbar-track {
+    background: #ffffff;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-bottom: 1px;
+}
+
+.scrollbarStyle::-webkit-scrollbar-thumb {
+    height: 165px;
+    background: #e6eaf2;
+    border-radius: 20px;
+}

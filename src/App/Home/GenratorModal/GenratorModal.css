@@ -1,0 +1,105 @@
+.stage1Con {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.appGenCon {
+    flex: 1;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.appGenBtn {
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    font-family: appFont;
+    font-size: 20px;
+    margin-top: 69px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.appGenBtn:hover {
+    opacity: 0.9;
+}
+
+.appDesc {
+    font-size: 10px;
+    margin-top: 109px;
+    text-align: initial;
+    color: #947878;
+    
+}
+
+.borderRight {
+    border-right: 1px solid black;
+}
+
+.stage2Con{
+    display: flex;
+    width: 100%;
+}
+
+.projectName{
+    border: none;
+   
+    width: 200px;
+    height: 30px;
+   
+    border-radius: 7px;
+    font-family: appFont;
+    color: #0C0C0C;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.leftCon{
+    flex: 1;
+}
+
+.rightCon{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.svgCon{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btnCon{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.docs{
+    color: #8d7d7d;
+font-family: "appFont";
+font-size: 9px;
+}
+
+
+.btns {
+    border: none;
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-right: 4px;
+    font-family: appFont;
+    font-size: 15px;
+    background-color: #dac0c0;
+}
+
+.btns:hover{
+    opacity: 0.8;
+}
